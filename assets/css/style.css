@@ -90,6 +90,7 @@ hr {
     max-width: 960px;
     background: white;
     padding: 0%;
+    overflow: scroll;
 }
 .start-p {
     float: left;
@@ -104,7 +105,7 @@ hr {
     color: #4aaaa5;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 2%;
+    padding: 2% 2% 0% 2%;
 }
 .footer {
     position: fixed;
@@ -144,7 +145,6 @@ textarea {
     max-width: 960px;
     height: 150px;
     margin-left: 2.5%;
-    
     resize: none;
 }
 input[type=submit] {
@@ -161,4 +161,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+.thumb {
+    width: 225px;
+    height: 168.75px;
 }
